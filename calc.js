@@ -1,7 +1,7 @@
 function calculate(request, response) {
-  var operation = request.query.operation
-  var x = parseFloat(request.query.x)
-  var y = parseFloat(request.query.y)
+  var operation = request.query.operation;
+  var x = parseFloat(request.query.x);
+  var y = parseFloat(request.query.y);
   if(operation=='add'){
     response.send(String(x) + ' + ' + String(y) + ' = ' + String(x+y))
   }
