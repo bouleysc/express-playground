@@ -1,4 +1,5 @@
 function sum(request, response) {
+  console.log('Hello');
   var n = request.query.n
   var result = 0
   var problem = ''
